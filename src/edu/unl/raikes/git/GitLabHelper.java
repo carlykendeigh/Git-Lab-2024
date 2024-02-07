@@ -12,13 +12,9 @@ public class GitLabHelper {
     public void PrintWelcomeMessage() {
         System.out.printf("Git lab by: %s and %s", person1, person2);
     }
-//    private String[] persons;
-//    
-//    GitLabHelper(String[] persons) {
-//        this.persons = persons;
-//    }
-//
-//    public void PrintWelcomeMessage() {
-//        System.out.print("Git lab by: " + Arrays.toString(persons));
-//    }
+    private String[] persons;
+    
+    GitLabHelper(String[] persons) {
+        this.persons = persons;
+    }
 }
